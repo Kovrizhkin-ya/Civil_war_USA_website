@@ -1,4 +1,4 @@
-
+/* Reset default margin and padding */
 * {
   margin: 0;
   padding: 0;
@@ -103,11 +103,6 @@ section {
 	margin-bottom: 20px;
 }
 
-table {
-	width: 100%;
-	border-collapse: collapse;
-}
-
 img {
 	display: block;
 	margin: auto;
@@ -148,30 +143,8 @@ a{
 	color:black;
 }
 
-a:visited{
+a:visited {
 	color:gray;
-}
-
-
-input[type="text"],
-input[type="email"],
-textarea,
-select {
-  margin-bottom: 10px;
-  padding: 5px;
-  border: 1px solid #ccc;
-}
-
-input[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #555;
 }
 
 h2 {
