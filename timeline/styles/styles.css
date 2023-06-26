@@ -1,3 +1,101 @@
+--react 
+.weather-card {
+	align-items:center;
+	background-color:#F2D6A9;
+	border-radius:8px;
+	box-shadow:0 2px 4px rgba(0,0,0,.1);
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	padding:20px
+}
+
+.temperature{
+	font-size:48px
+}
+
+.condition,.temperature{
+	color:#333;
+	font-weight:700
+}
+
+.condition{
+	font-size:24px;
+	margin-top:10px
+}
+
+.description{
+	color:#666;
+	font-size:16px;
+	margin-top:5px
+}
+
+.weather-icon{
+	height:50px;
+	margin-top:10px;
+	width:50px}
+	
+.weather-widget{
+	margin-top:20px;
+	text-align:center
+}
+
+.form-container{
+	margin-bottom:20px
+}
+
+.form-container input[type=text]{
+	font-size:16px;
+	height:40px;
+	padding:5px;
+	width:300px
+}
+
+.form-container button{
+	font-size:16px;
+	height:52px;
+	margin-left:20px;
+	width:140px}
+
+.weather-card{
+	display:inline-block;
+	margin:10px;
+	padding:10px;
+	text-align:center;
+	width:150px
+}
+
+.weather-card .date{
+	font-size:18px;
+	font-weight:700;
+	margin-bottom:5px
+}
+
+.weather-card .temperature{
+	font-size:40px;
+	margin-bottom:10px
+}
+
+.weather-card .description{
+	font-size:16px;
+	margin-bottom:10px
+}
+
+.weather-card .icon{
+	height:50px;
+	width:50px
+}
+	
+.error,.loading{
+	font-size:20px;
+	margin-top:20px
+}
+	
+.error{
+	color:red
+}
+
+
 
 * {
   margin: 0;
